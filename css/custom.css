@@ -1,0 +1,76 @@
+.navbar-default {
+	margin-right: 0px;
+}
+
+.no-padding-right {
+	padding-right: 0;
+}
+
+.navbar-default .navbar-nav li:last-child a {
+	padding-right: 0;
+}
+
+.bg-main-dark {
+    overflow: hidden;
+    background-image: url(../images/bg-main-dark.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.sidehow_caption_1 h1 {
+	letter-spacing: 0;
+    text-transform: none;
+}
+
+.padding-top {
+	padding-top: 30px;
+}
+
+.thumb-item .shap {
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    border-radius: 300px;
+}
+
+.thumb-item .shap::before {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    content: "";
+}
+.thumb-item .shap::after {
+	position: absolute;
+    bottom: -22px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    content: "";
+}
+
+.thumb-item {
+    padding: 10px 20px 50px 20px;
+}
+
+.project-caption-1 {
+    padding: 80px;
+}
+
+header .logo {
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+header .logo {
+    padding: 22px 0;
+}
+}
+
