@@ -56,12 +56,9 @@
     content: "";
 }
 
-.thumb-item {
-    padding: 10px 20px 50px 20px;
-}
 
 .project-caption-1 {
-    padding: 80px;
+    padding: 80px 60px;
 }
 
 #stay-updated .input-icon input.form-item {
@@ -96,3 +93,18 @@ header .logo {
 }
 }
 
+.eqWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+} 
+
+.bg-main-other {
+    overflow: hidden;
+    background-image: url(../images/bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
